@@ -1,22 +1,22 @@
 
 ;; ----- smex-history -----
 (
- replace-string
+ package-install
  set-mark-command
  shell
- load-theme
- package-delete
- package-install
+ compile
+ replace-string
  run-scheme
+ load-theme
 )
 
 ;; ----- smex-data -----
 (
  (list-packages . 3)
  (ivy-mode . 2)
- (replace-string . 9)
+ (replace-string . 13)
  (package-delete . 6)
- (set-mark-command . 101)
+ (set-mark-command . 117)
  (query-replace . 1)
  (kill-rectangle . 5)
  (yank-rectangle . 4)
@@ -24,8 +24,9 @@
  (eval-expression . 1)
  (eval-region . 1)
  (eval-buffer . 1)
- (run-scheme . 5)
- (package-install . 1)
+ (run-scheme . 6)
+ (package-install . 2)
  (load-theme . 18)
- (shell . 1)
+ (shell . 4)
+ (compile . 4)
 )
