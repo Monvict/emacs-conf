@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- org-mode
+ eglot
+ python-mode
  shell
+ org-mode
  package-install
  list-packages
  replace-string
- run-scheme
- load-theme
 )
 
 ;; ----- smex-data -----
@@ -27,7 +27,10 @@
  (run-scheme . 8)
  (package-install . 3)
  (load-theme . 19)
- (shell . 13)
+ (shell . 15)
  (compile . 4)
  (org-mode . 2)
+ (eglot . 10)
+ (eglot-manual . 1)
+ (python-mode . 1)
 )

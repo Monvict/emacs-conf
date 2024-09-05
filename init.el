@@ -39,10 +39,12 @@
             (lambda () (setq gc-cons-threshold normal-gc-cons-threshold))))
 ;; Bootstrap config
 
+
 (require 'conf-global)
 (require 'conf-key-bind)
 (require 'conf-ivy)
 (require 'conf-rainbow)
+(require 'conf-jedi)
 (provide 'init)
 ;;; init.el ends here
 
