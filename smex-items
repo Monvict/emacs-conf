@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-delete
  er/expand-region
  package-install
  shell
  scheme-mode
  run-scheme
  go-ts-mode
- go-mod-ts-mode
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (list-packages . 4)
  (ivy-mode . 2)
  (replace-string . 19)
- (package-delete . 6)
+ (package-delete . 10)
  (set-mark-command . 122)
  (query-replace . 1)
  (kill-rectangle . 5)

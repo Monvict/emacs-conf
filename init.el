@@ -52,7 +52,6 @@
 (require 'conf-rainbow)
 (require 'conf-jedi)
 (require 'conf-expand-region)
-(require 'conf-tree-sitter)
 (provide 'init)
 ;;; init.el ends here
 
