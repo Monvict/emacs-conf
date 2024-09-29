@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- eglot
- python-mode
- shell
- org-mode
+ er/expand-region
  package-install
- list-packages
- replace-string
+ shell
+ scheme-mode
+ run-scheme
+ go-ts-mode
+ go-mod-ts-mode
 )
 
 ;; ----- smex-data -----
@@ -24,13 +24,21 @@
  (eval-expression . 1)
  (eval-region . 1)
  (eval-buffer . 1)
- (run-scheme . 8)
- (package-install . 3)
+ (run-scheme . 13)
+ (package-install . 7)
  (load-theme . 19)
- (shell . 15)
+ (shell . 18)
  (compile . 4)
  (org-mode . 2)
  (eglot . 10)
  (eglot-manual . 1)
  (python-mode . 1)
+ (treesit-install-language-grammar . 4)
+ (describe-mode . 1)
+ (package-list-packages . 1)
+ (go-ts-mode . 3)
+ (yaml-mode . 2)
+ (go-mod-ts-mode . 1)
+ (scheme-mode . 4)
+ (er/expand-region . 1)
 )

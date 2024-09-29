@@ -14,6 +14,7 @@
 (setq auto-save-default nil) ; 关闭自动保存
 (load-theme 'manoj-dark t)
 (global-company-mode 1) ; 开启全局补全模式
+(set-language-environment "UTF-8")
 ;(add-to-list 'default-frame-alist '(fullscreen . maximized)) ;图形界面全屏
 
 (provide 'conf-global)
