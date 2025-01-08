@@ -17,4 +17,8 @@
 (set-language-environment "UTF-8")
 ;(add-to-list 'default-frame-alist '(fullscreen . maximized)) ;图形界面全屏
 
+;; 启用相对行号
+(global-display-line-numbers-mode t)
+(setq display-line-numbers-type 'relative)
+
 (provide 'conf-global)
