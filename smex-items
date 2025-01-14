@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
+ man
+ woman
+ woman-find-file
  package-delete
  er/expand-region
  package-install
- shell
- scheme-mode
- run-scheme
- go-ts-mode
 )
 
 ;; ----- smex-data -----
@@ -23,7 +23,7 @@
  (kill-region . 1)
  (eval-expression . 1)
  (eval-region . 1)
- (eval-buffer . 1)
+ (eval-buffer . 4)
  (run-scheme . 13)
  (package-install . 7)
  (load-theme . 19)
@@ -41,4 +41,9 @@
  (go-mod-ts-mode . 1)
  (scheme-mode . 4)
  (er/expand-region . 1)
+ (man . 5)
+ (Man-next-manpage . 1)
+ (Man-mode . 1)
+ (woman . 4)
+ (woman-find-file . 1)
 )

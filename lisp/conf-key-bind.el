@@ -26,20 +26,15 @@
   )
 (global-set-key (kbd "M-d") 'duplicate-line)
 
-(defun move-line-up ()
-  "Move the current line up."
-  (interactive)
-  (transpose-lines 1)
-  (forward-line -2))
 
-(defun move-line-down ()
-  "Move the current line down."
+;; 选中当前行
+(defun select-current-line ()
+  "Select the current line."
   (interactive)
-  (forward-line 1)
-  (transpose-lines 1)
-  (forward-line -1))
+  (beginning-of-line)
+  (set-mark (point))
+  (end-of-line))
+(global-set-key (kbd "C-c C-l") 'select-current-line)
 
-(global-set-key (kbd "C-M-p") 'move-line-up)   ; 绑定向上移动
-(global-set-key (kbd "C-M-n") 'move-line-down) ; 绑定向下移动
 
 (provide 'conf-key-bind)

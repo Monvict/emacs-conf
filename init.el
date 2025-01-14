@@ -52,6 +52,7 @@
 (require 'conf-rainbow)
 (require 'conf-jedi)
 (require 'conf-expand-region)
+(require 'conf-move-text)
 (provide 'init)
 ;;; init.el ends here
 
@@ -63,7 +64,7 @@
  '(custom-safe-themes
    '("f5b6be56c9de9fd8bdd42e0c05fecb002dedb8f48a5f00e769370e4517dde0e8" "4c56af497ddf0e30f65a7232a8ee21b3d62a8c332c6b268c81e9ea99b11da0d3" "fee7287586b17efbfda432f05539b58e86e059e78006ce9237b8732fde991b4c" default))
  '(package-selected-packages
-   '(expand-region go-mode company rainbow-delimiters smex counsel ivy)))
+   '(move-text expand-region go-mode company rainbow-delimiters smex counsel ivy)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
