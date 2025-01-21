@@ -21,4 +21,7 @@
 (global-display-line-numbers-mode t)
 (setq display-line-numbers-type 'relative)
 
+;; 设置选中文本的背景色为灰色
+(set-face-background 'region "#707b7c")  
+
 (provide 'conf-global)

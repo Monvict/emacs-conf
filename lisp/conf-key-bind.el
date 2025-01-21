@@ -24,7 +24,7 @@
   (next-line 1)
   (yank)
   )
-(global-set-key (kbd "M-d") 'duplicate-line)
+(global-set-key (kbd "C-c C-d") 'duplicate-line)
 
 
 ;; 选中当前行
