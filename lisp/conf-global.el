@@ -24,4 +24,11 @@
 ;; 设置选中文本的背景色为灰色
 (set-face-background 'region "#707b7c")  
 
+;;全局启用高亮当前行
+(global-hl-line-mode 1)
+;;设置高亮行的背景色为深灰色
+(set-face-background 'hl-line "#333333")
+;;保持文字颜色不变  
+(set-face-foreground 'hl-line nil)
+
 (provide 'conf-global)
