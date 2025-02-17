@@ -22,7 +22,11 @@
 (setq display-line-numbers-type 'relative)
 
 ;; 设置选中文本的背景色为灰色
-(set-face-background 'region "#707b7c")  
+(set-face-background 'region "#707b7c")
+
+(setq-default tab-width 4)        ;; 设置 tab 的宽度为 4 个空格
+(setq-default indent-tabs-mode nil)  ;; 禁用 Tab 字符，改为使用空格
+
 
 ;;全局启用高亮当前行
 (global-hl-line-mode 1)

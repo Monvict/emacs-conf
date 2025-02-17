@@ -53,6 +53,7 @@
 (require 'conf-jedi)
 (require 'conf-expand-region)
 (require 'conf-move-text)
+(require 'conf-eglot-go)
 (provide 'init)
 ;;; init.el ends here
 
